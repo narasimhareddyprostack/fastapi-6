@@ -19,3 +19,10 @@ Asynchronous Server Gateway Interface webserver for python.
 md crud1
 cd crud1\app.py
 ---------------
+
+
+def home_page():
+	return {"message":"Welcome to FastAPI"}
+
+
+uvicorn main:app --reload

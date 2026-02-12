@@ -13,14 +13,14 @@ pip install fastapi uvicorn
 FastAPI - is modern,fast and high-performance 
 web framework for developing API for python.
 
-Uvicorn- web server for python -
+Uvicorn- web server for python - ASGI
 Asynchronous Server Gateway Interface webserver for python.
 
 md crud1
 cd crud1\app.py
 ---------------
 
-
+@app.get("/")
 def home_page():
 	return {"message":"Welcome to FastAPI"}
 
