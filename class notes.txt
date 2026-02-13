@@ -1,0 +1,103 @@
+create virtual environment and activate
+
+python -m venv proj1
+proj1\Scripts\activate.bat
+
+F:\Aug-Oct\FastAPI-6>python -m venv proj1
+
+F:\Aug-Oct\FastAPI-6>proj1\Scripts\activate.bat
+
+(proj1) F:\Aug-Oct\FastAPI-6>
+
+Install project specific dependencies/packages
+=============================================
+FastAPI - Python Web Framework for developing RestAPI
+uvicorn - Python server(ASGI)
+
+pip install fastapi uvicorn
+
+===============================================
+create app folder
+md crud1
+cd crud1
+
+
+Python Decorator?
+
+How to start FastAPI Server.
+uvicorn server:app --reload
+
+HTTP Logger/ NodeJS -Morgan
+
+How to access Swagger UI:
+http://127.0.0.1:8000/docs
+http://localhost:8000/docs
+
+
+
+HTTP Status Codes
+--------------------
+1xx   - information related
+2xx   - Success ok
+3xx   - URL Redirect codes
+4xx   - client 
+5xx   - Server related
+HTTP Methods
+-------------------
+User Functionality
+/newuser  - create : POST
+/users    - read   : GET
+/user/101 - read   : GET
+/user/101 - update : PUT
+/user/101 - delete : DELETE
+============================
+CRUD
+------------------
+create new user        - POST
+get all users          - GET
+get user by id         - GET
+update user by id      - PUT
+delete user by id      - DELETE
+
+Rest API 1:
+-----------
+usage:create new user
+Rest API URL: http://127.0.0.1:8000/user/create
+Method Type:POST
+Required Feilds: uname,email,gender
+Access Type:Public
+
+POSTMAN/Swagger UI
+how to access Swagger:
+http://127.0.0.1:8000/docs
+
+Run the server
+---------------------
+file name: app.py
+FastAPI app:app
+uvicorn app:app --reload
+
+
+Rest API 2:
+usage: get users
+Rest API URL: http://127.0.0.1:8000/user/read
+Method Type:GET
+Required Fields:None
+Access Type:Public
+
+RestAPI 3:
+--------------
+usage: update user by id      - PUT
+Rest API URL: http://127.0.0.1:8000/user/101
+Method Type:PUT
+Required Fields:uname,email,gender
+Access Type:Public
+
+
+RestAPI 4:
+--------------
+usage: delete user by id      -
+Rest API URL: http://127.0.0.1:8000/user/101
+Method Type:DELETE
+Required Fields:None
+Access Type:Public
