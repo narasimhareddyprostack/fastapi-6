@@ -92,3 +92,73 @@ Rest API URL: http://127.0.0.1:8000/user/101
 Method Type:PUT
 Required Fields:uname,email,gender
 Access Type:Public
+
+
+RestAPI 4:
+--------------
+usage: delete user by id      -
+Rest API URL: http://127.0.0.1:8000/user/101
+Method Type:DELETE
+Required Fields:None
+Access Type:Public
+===============================================
+https://www.flipkart.com/mobile-phones-store?param=4111&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIk1vYmlsZXMiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19fX19&ov_redirect=true&pageUID=1771205886704
+https://www.flipkart.com/
+mobile-phones-store?
+param=4111&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIk1vYmlsZXMiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19fX19&ov_redirect=true&pageUID=1771205886704
+
+
+http://www.psa.com/emp/
+http://www.psa.com/emp/101
+
+http://www.psa.com      - Domain name
+/emp                    - Path Parameter
+/emp/101                - Path Parameter Value
+
+http://www.psa.com/user/
+http://www.psa.com/user/101/orders/5
+
+http://www.psa.com      - Domain name
+/user/101/order/5      - Path
+
+
+https://www.flipkart.com/
+mobile-phones-store?
+param=4111&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIk1vYmlsZXMiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19fX19&ov_redirect=true&pageUID=1771205886704
+
+Path Parameters - 
+Query Parameters -  ?  &
+
+
+https://www.flipkart.com/
+mobile-phones-store       -- Path Paramter
+?
+param=4111&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIk1vYmlsZXMiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19fX19
+
+param=4111
+ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIk1vYmlsZXMiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19fX19
+&
+ov_redirect=true
+&
+pageUID=1771205886704
+
+Path & Query Paramters
+==========================
+Path Parameter: is a part of url.
+                used to identify the specic resouse.
+
+http://www.psa.com/users/          - fetch all users        
+http://www.psa.com/user/101        - fetch user by uid 
+http://www.psa.com/user/101/order/4- fetch user by uid and orders by 4 
+http://www.psa.com/emp/            - fetch all employees 
+http://www.psa.com/products/       - fetch all products
+
+Query parameters:
+is value passed in url. after ?   &
+used to filter, sort, pagination, modify the result 
+without affecting end point.
+
+http://www.psa.com/products?category=stationary
+
+		
+

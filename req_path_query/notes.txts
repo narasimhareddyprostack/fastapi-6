@@ -1,0 +1,39 @@
+Rest API -1
+--------------
+usage: fetch all employees
+Rest API URL: http://localhost:8000/employees
+Method Type:GET
+Required Fields:None 
+Access Type:Public
+
+
+Rest API -2
+--------------
+usage: fetch employee by emp_id
+Rest API URL: http://localhost:8000/employees/101
+Method Type:GET
+Required Fields:None 
+Access Type:Public
+
+Note1:Path Parameter - identify the specific resouces
+
+Rest API - 3
+usage: fetch user by id and get orders
+Rest API URL: http://localhost:8000/users/101/orders
+Method Type:GET
+Required Fields:None 
+Access Type:Public
+
+Note1:Path Parameter - identify the specific resouces
+
+
+Rest API - 4
+usage: fetch user by id and get order by Id
+Rest API URL: http://localhost:8000/users/101/orders/6
+Method Type:GET
+Required Fields:None 
+Access Type:Public
+
+Note1:Path Parameter - identify the specific resouces
+
+
