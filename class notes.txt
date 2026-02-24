@@ -184,3 +184,42 @@ https://happenstance.com
 
 http://localhost:8000/employees      - fetch all employees
 http://localhost:8000/employees/101  - fetch emp by id
+
+=======================================================
+https://www.flipkart.com/google-pixel-10a-lavender-256-gb/p/itmba3073a0f391e?pid=MOBHK7FH66BBP4PE&param=7788&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InNvdXJjZUNvbnRlbnRUeXBlIjp7InNpbmdsZVZhbHVlQXR0cmlidXRlIjp7ImtleSI6InNvdXJjZUNvbnRlbnRUeXBlIiwiaW5mZXJlbmNlVHlwZSI6IlNDVCIsInZhbHVlIjoiSUFEIiwidmFsdWVUeXBlIjoiU0lOR0xFX1ZBTFVFRCJ9fX19fQ%3D%3D&nnc=DV403I3K6DDS_IAD&pageUID=1771896951224
+
+https://www.flipkart.com/
+google-pixel
+?
+pid=p101
+&param=7788
+&ctx=c101
+&nnc=gp10
+&pageUID=2
+
+https://127.0.0.1:8000/
+google-pixel
+?
+pid=p101
+&param=7788
+&ctx=c101
+&nnc=gp10
+&pageUID=2
+
+Develop RestAPI - End Point
+=====================================
+class-3
+How to enable Virtual Environment.
+proj1\Scripts\activate.bat
+
+How to run FastAPI?
+uvicorn main:app --reload
+
+
+https://127.0.0.1:8000/
+emp/101?
+&pageId=7
+&ord=desc
+
+Develop - Rest API for this end point
+

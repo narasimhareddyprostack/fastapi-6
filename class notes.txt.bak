@@ -160,5 +160,29 @@ without affecting end point.
 
 http://www.psa.com/products?category=stationary
 
-		
 
+https://www.amazon.in/
+s
+?
+i=electronics
+&
+bbn=1388921031
+&
+rh=n%3A1388921031%2Cp_n_condition-type%3A8609960031%2Cp_n_deal_type%3A26921226031&_encoding=UTF8&content-id=amzn1.sym.7db31cb9-0df8-4370-a351-4f74924c1c7a&pd_rd_r=51c3531f-53f2-4cf0-bb13-bd216677be9c&pd_rd_w=Ruwaf&pd_rd_wg=YsQ4P&pf_rd_p=7db31cb9-0df8-4370-a351-4f74924c1c7a
+&
+pf_rd_r=CZY6H8W69WZ6T4H22WN7
+&
+ref=pd_hp_d_atf_unk
+
+https://happenstance.com
+/product-category
+/now-on-sandals-for-men-and-women
+#men-sandals-title	
+
+
+
+
+http://localhost:8000/employees      - fetch all employees
+http://localhost:8000/employees/101  - fetch emp by id
+
+=======================================================
