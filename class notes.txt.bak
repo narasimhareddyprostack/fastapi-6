@@ -186,3 +186,70 @@ http://localhost:8000/employees      - fetch all employees
 http://localhost:8000/employees/101  - fetch emp by id
 
 =======================================================
+https://www.flipkart.com/google-pixel-10a-lavender-256-gb/p/itmba3073a0f391e?pid=MOBHK7FH66BBP4PE&param=7788&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InNvdXJjZUNvbnRlbnRUeXBlIjp7InNpbmdsZVZhbHVlQXR0cmlidXRlIjp7ImtleSI6InNvdXJjZUNvbnRlbnRUeXBlIiwiaW5mZXJlbmNlVHlwZSI6IlNDVCIsInZhbHVlIjoiSUFEIiwidmFsdWVUeXBlIjoiU0lOR0xFX1ZBTFVFRCJ9fX19fQ%3D%3D&nnc=DV403I3K6DDS_IAD&pageUID=1771896951224
+
+https://www.flipkart.com/
+google-pixel
+?
+pid=p101
+&param=7788
+&ctx=c101
+&nnc=gp10
+&pageUID=2
+
+https://127.0.0.1:8000/
+google-pixel
+?
+pid=p101
+&param=7788
+&ctx=c101
+&nnc=gp10
+&pageUID=2
+
+Develop RestAPI - End Point
+=====================================
+class-3
+How to enable Virtual Environment.
+proj1\Scripts\activate.bat
+
+How to run FastAPI?
+uvicorn main:app --reload
+
+
+https://127.0.0.1:8000/
+emp/101?
+&pageId=7
+&ord=desc
+
+Develop - Rest API for this end point
+========================================
+user module - RestAPI End proint
+
+localhost:8000/user/create         - POST
+localhost:8000/user/read           - GET
+localhost:8000/user/read/101       - GET
+localhost:8000/user/update/101     - PUT
+localhost:8000/user/delete/101     - DELETE 
+localhost:8000/user/login          - POST
+localhost:8000/user/logout         - POST
+localhost:8000/user/forgetpwd      - POST 
+
+product module - RestAPI End Point
+
+localhost:8000/product/create       - POST
+localhost:8000/product/read         - GET
+localhost:8000/product/read/10001   - GET
+localhost:8000/product/update/10001 - PUT
+localhost:8000/product/delete/10001 - DELETE
+
+Modularity
+Reusability
+Readability
+
+With help of Routing - promotes DRY(Dont Repeat Yourself)
+
+Structuring,maintaing and Scaling APIS.
+
+
+
+
